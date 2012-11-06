@@ -5,32 +5,32 @@ O livro Little Redis Book é uma introdução ao Redis.
 Este livro foi escrito por [Karl Seguin](http://openmymind.net), com ajuda do [Perry Neal](http://twitter.com/perryneal).
 <!-- The book was written by Karl Seguin, with Perry Neal's assistance. -->
 
-Se você gostou deste livro, talvez você também irá gostar do livro [The Little MongoDB Book](http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/).
+Se você gostou deste livro, provavelmente você também irá gostar do livro [The Little MongoDB Book](http://openmymind.net/2011/3/28/The-Little-MongoDB-Book/).
 <!-- If you liked this book, maybe you'll also like The Little MongoDB Book. -->
 
 ## Licença ##
-O livro é distribuído gratuitamente sobre a licença [Attribution-NonCommercial 3.0 Unported license](<http://creativecommons.org/licenses/by-nc/3.0/legalcode>).
+O livro é distribuído gratuitamente sobre a licença [Attribution-NonCommercial 3.0 Unported](<http://creativecommons.org/licenses/by-nc/3.0/legalcode>).
 
 ## Traduções ##
 
 * [Russo](https://github.com/kondratovich/the-little-redis-book)
 * [Italiano](https://github.com/sandroconforto/the-little-redis-book) - [pdf](https://github.com/sandroconforto/the-little-redis-book/raw/master/book/redisIt.pdf)
 * [Chinês](https://github.com/JasonLai256/the-little-redis-book)
-* [Japoês](https://github.com/craftgear/the-little-redis-book/)
+* [Japonês](https://github.com/craftgear/the-little-redis-book/)
 
 ## Formatos ##
 
-O livro é escrito no formato [Markdown](http://daringfireball.net/projects/markdown/) e convertido para PDF utilizando o [pandoc](http://johnmacfarlane.net/pandoc/). Alguns comandos específicos em LaTex foram incluídos no arquivo Markdown para ajudar na geração do PDF (comandos para o título das páginas e para a quebra de página entre os capítulos).
+Esse livro foi escrito no formato [Markdown](http://daringfireball.net/projects/markdown/) e convertido para PDF utilizando o [pandoc](http://johnmacfarlane.net/pandoc/). Alguns comandos específicos em LaTex foram incluídos no arquivo Markdown para ajudar na geração do PDF (comandos para o título das páginas e para a quebra de página entre os capítulos).
 
 <!-- The book is written in [Markdown](http://daringfireball.net/projects/markdown/) and converted to PDF using [pandoc](http://johnmacfarlane.net/pandoc/). A few LaTex specific commands have been placed in the Markdown file to help with PDF-generation (namely for the title page and to create page breaks between chapters). -->
 
-Para gerar o PDF, ou para os formatos Kindle ou EPUB, baixe e instale o [pandoc](http://johnmacfarlane.net/pandoc/), que é um conversor universal de documentos.
+Para gerar o arquivo PDF ou os arquivos para o Kindle (.mobi) ou EPUB, baixe e instale o [pandoc](http://johnmacfarlane.net/pandoc/), que é um conversor universal de documentos.
 
 <!-- To generate PDF, Kindle and EPUB formats, download and install [pandoc](http://johnmacfarlane.net/pandoc/), a universal document converter. -->
 
 ## Gerando o arquivo PDF ##
 
-O pandoc possui o aplicativo **markdown2pdf** para gerar o PDF que utiliza uma variação do *template* <https://github.com/claes/pandoc-templates>:
+O pandoc possui o **markdown2pdf** para gerar arquivo PDF utilizando uma variedades de *template* disponíveis em <https://github.com/claes/pandoc-templates>.
 
 <!-- pandoc includes markdown2pdf to generate the PDF using a variation of https://github.com/claes/pandoc-templates: -->
 
@@ -55,7 +55,7 @@ O pandoc possui o aplicativo **markdown2pdf** para gerar o PDF que utiliza uma v
 	-V nohyphenation=$nohyphenation en/redis.md -o redis.pdf
 
 ## Gerando o EPUB ##
-Utilize o seguinte comando (modificado do comando encontrado em <http://news.ycombinator.com/item?id=3502033>) para gerar o arquivo EPUB.
+Utilize o seguinte comando (modificado do encontrado em <http://news.ycombinator.com/item?id=3502033>) para gerar o arquivo no formato EPUB.
 
 <!-- Use the following command (modified from the one found at <http://news.ycombinator.com/item?id=3502033>) to generate the EPUB: -->
 
@@ -67,6 +67,6 @@ Utilize o seguinte comando (modificado do comando encontrado em <http://news.yco
 	en/redis.md -o redis.epub
 
 ## Imagem do Livro ##
-O arquivo PSD da imagem do livro está disponível. A fonte utilizada é a [Comfortaa](http://www.dafont.com/comfortaa.font).
+O arquivo PSD da imagem do livro também está disponível. A fonte utilizada é a [Comfortaa](http://www.dafont.com/comfortaa.font).
 
 <!-- A PSD of the title image is included. The font used is [Comfortaa](http://www.dafont.com/comfortaa.font). -->
